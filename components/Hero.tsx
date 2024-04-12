@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -5,12 +6,12 @@ function Hero() {
   return (
     <section className="relative lg:min-h-[1000px] pt-24 pb-10 sm:pt-32 sm:pb-16 lg:pb-24">
       <div className=" hidden lg:flex">
-        <img
+        <Image
           className="hidden w-full lg:block"
           src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/5/credit-cards.png"
           alt=""
         />
-        <img
+        <Image
           className="block w-full lg:hidden"
           src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/5/credit-cards-mobile.png"
           alt=""

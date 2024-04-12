@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -8,7 +9,7 @@ function Header() {
         <div className="flex items-center justify-between h-16 lg:h-20">
           <div className="flex-shrink-0">
             <a href="#" title="" className="flex">
-              <img
+              <Image
                 className="w-auto h-8"
                 src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/5/logo.svg"
                 alt=""

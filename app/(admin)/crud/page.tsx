@@ -16,6 +16,7 @@ import {
   FormItem,
 } from "@/components/ui/form";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 const formSchema = z.object({
   NombreBanco: z.string().min(1, {
@@ -63,7 +64,7 @@ const CreatePage = () => {
       <div className="p-6  ">
         <div className="flex justify-end">
           <a href="#" title="" className="flex">
-            <img
+            <Image width={300} height={300}
               className="w-auto h-8"
               src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/5/logo.svg"
               alt=""
